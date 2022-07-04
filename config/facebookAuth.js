@@ -6,7 +6,7 @@ passport.use(
   new FacebookStrategy(
     {
       clientID: "410601497786598",
-      clientSecret: "825ede16c0a9665bf0ee4aa235d2de94",
+      clientSecret: "******",
       callbackURL: "http://localhost:3000/facebook/callback",
       passReqToCallback: true,
     },
